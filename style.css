@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: #F9F6F1;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  color: #A25961;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+  margin: 20;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  color: #90B1E5;
+  text-align: center;
+  display: block;
+}
+
+a {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.ul-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.fab {
+  font-size: 50px;
+  color: black;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: #A25961;
+}
+
+.intro {
+  font-size: 20px;
+  line-height: 100%;
+  padding: 10px 20px;
+}
+
+.btn-middle-red {
+  color: white;
+  background-color: #A25961;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-middle-red:hover {
+  background-color: black;
+}
+
+.a:hover {
+  color: grey;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  border-radius: 4px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
