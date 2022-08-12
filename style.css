@@ -4,7 +4,8 @@
 
 body {
   color: black;
-  background-color: #F9F6F1;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #ffd649 11%, #ffa253 22%, #f6756b 33%, #cb587f 44%, #8e4b84 55%, #8e4b84 66%, #4c4076 77%, #003056 88%, #003056 100%);
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-size: 15px;
@@ -34,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-.ul-inline {
+.inline {
   list-style: none;
   padding-left: 0px;
 }
@@ -46,43 +47,63 @@ li {
 
 .fab {
   font-size: 50px;
-  color: black;
+  color: #b0aeae;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .fab:hover {
   color: #A25961;
 }
 
+
 .intro {
   font-size: 20px;
   line-height: 100%;
-  padding: 10px 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .btn-middle-red {
   color: white;
-  background-color: #A25961;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   padding: 15px 20px;
   border-radius: 4px;
-  transition: 0.3s;
+  transition: 0.5s;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  font-weight: 200;
 }
 
 .btn-middle-red:hover {
-  background-color: black;
+  background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
 }
 
-.a:hover {
-  color: grey;
+.bar-link {
+  transition: 0.2s;
+}
+
+.bar-link:hover {
+  color: rgb(184, 180, 180);
 }
 
 .card {
   background-color: white;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
+}
+
+.border {
+  border-top: 5px solid #003056;
+}
+
+.lighter-border {
+  border-top: 5px solid #A25961;
+}
+
+.fav-bars {
+  line-height: 40px;
 }
 
 .container {
@@ -93,6 +114,17 @@ li {
 
 .img-circle {
   border-radius: 50%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
+}
+
+.cities-pics {
+  width: 150px;
+  padding: 5px;
+}
+
+.cities-pics:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 @media (max-width: 960px) {
